@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <!-- Your CSS files -->
+    <link rel="stylesheet" href="styles/styles.css">
+    
+    <!-- google fonts: Open Sans (sans-serif) and Lora (serif) -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700&display=swap" rel="stylesheet">
+      
+    <title>Happiness Index</title>
+  </head>
+
+  <body class="light-theme"> <!-- all of the content on your html page goes inside the body -->
+
+    <div class="header">
+      <p class="kicker">World Happiness Index</p>
+      <h1 class="headline">Hello World, Are You Happy?</h1>
+      <h2 class="subhead">An analysis of 2019 World Happiness Index Report</h2>
+      <p class="byline">By Tao Shi</p>
+      <p class="date">Published August 4, 2019</p>
+    </div>
+
+    <div class="story-body">
+      <p class="body-text serif">The World Happiness Report has released its this year's report recently. Finland has been the happiest country in this year.</p>
+      <p class="body-text serif">The World Happiness Report is a landmark survey of the state of global happiness that ranks 156 countries by how happy their citizens perceive themselves to be. This year’s World Happiness Report focuses on happiness and the community: how happiness has evolved over the past dozen years, with a focus on the technologies, social norms, conflicts and government policies that have driven those changes.</p>
+      <p class="body-text serif">The map below shows this year's happiness ranks, breaking up by countries.</p>
+
+      <div class="chart-section">
+        <p class="chart-title">World Happiness Rank</p>
+        <p class="chart-subhead"></p>
+        <div class="chart-row">
+          <div class="chart">
+            <img src="images/map.png"/>
+          </div>
+        </div>
+        <p class="chart-source">Sources: World Happiness Report</p>
+      </div>
+      <p class="body-text serif">The deviations of country ranks vary from continents. Europe is the happiest continent while Africa is the least happy one. Aisan countries have the largest deviation in terms of ranking while Oceania holds the smallest deviation.</p>
+      <p class="body-text serif">Below is a boxplot showing the situation for each continent.</p>
+      <div class="chart-section">
+        <p class="chart-title">Rank Deviations by Continents</p>
+        <p class="chart-subhead"></p>
+        <div class="chart-row">
+          <div class="chart">
+            <img src="images/box.png"/>
+          </div>
+        </div>
+        <p class="chart-source">Sources: World Happiness Report</p>
+
+      <h3 class="section-head serif">Correlations Among Several Index</h3>
+      <p class="body-text serif">Multipal measurements have contributed to form the final rank. </p>
+      <p class="body-text serif">These measurements include positive and negative emothions, social support, freedom, corruption, generosity, GDP per capita, life expectancy.</p>
+      <p class="body-text serif">This is a matrix chart showing the total correlations among these factors.</p>
+
+      <div class="chart-section">
+        <p class="chart-title">Overall Correlation Matrix</p>
+        <p class="chart-subhead"></p>
+        <div class="chart-row">
+          <div class="chart">
+            <img src="images/t_corr.jpg"/>
+          </div>
+        </div>
+        <p class="chart-source">Sources: World Happiness Report</p>
+      </div>
+
+      <p class="body-text serif">Different continents have different factors that contribute the most to happiness ranking. Below are two charts of North America and Aisa. According to the report, positive emotion contributes the most to North American countries' ranks. On the other hand, GDP plays the most important role for Asian countries' ranks.</p>
+
+    <div class="chart-section">
+      <p class="chart-title">Comparison between North American Countries and Asian Countries</p>
+      <p class="chart-subhead"></p>
+      <div class="chart-row">
+        <div class="chart">
+          <p class="chart-label">Correlation Matrix of North America</p>
+          <img src="images/NA.jpg"/>
+        </div>
+        <div class="chart">
+          <p class="chart-label">Correlation Matrix of Asia</p>
+          <img src="images/aisa.jpg"/>
+        </div>
+      </div>
+      <p class="chart-source">Sources: World Happiness Report</p>
+    </div>
+
+    <h3 class="section-head serif">Press Freedom Index VS Happiness Index</h3>
+    <p class="body-text serif">Reporter without Borders, a international press organization published this years press freedom report recently. Press freedom can also contribute to happiness.</p>
+    <p class="body-text serif">Below is a scatter plot chart showing the correlations between press freedom ranks and happiness ranks.</p>
+    <div class="chart-section">
+      <p class="chart-title">Relationship between Happiness And Press Freedom</p>
+      <p class="chart-subhead"></p>
+      <div class="chart-row">
+        <div class="chart">
+          <img src="images/press_happiness.jpg"/>
+        </div>
+      </div>
+      <p class="chart-source">Sources: World Happiness Report, Reporter without Borders</p>
+    </div>
+
+    
+
+    <div class="footer">
+      <p class="note"></p>
+    </div>
+  </body>
+</html>
